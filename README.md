@@ -14,6 +14,30 @@ It shows:
 - time until each window resets
 - current Codex model / reasoning effort in the dropdown menu
 
+## Quick start
+
+Clone, build, and install:
+
+```bash
+git clone https://github.com/snape77/nana-codex-menubar.git
+cd nana-codex-menubar
+bash build.sh --install
+```
+
+For a temporary run without installing:
+
+```bash
+bash build.sh --run
+```
+
+The installed app lives at:
+
+```text
+~/Applications/nana-menu.app
+```
+
+It runs as a menu-bar-only app and does not show a Dock icon.
+
 ## Privacy
 
 nana does **not** contain or ask for your OpenAI account credentials.
@@ -41,26 +65,6 @@ See [PRIVACY.md](PRIVACY.md) for details.
 - macOS
 - Codex installed and already signed in
 - Xcode Command Line Tools / `swiftc`
-
-## Build and run
-
-```bash
-bash build.sh --run
-```
-
-## Install
-
-```bash
-bash build.sh --install
-```
-
-The app is installed to:
-
-```text
-~/Applications/nana-menu.app
-```
-
-It runs as a menu-bar-only app and does not show a Dock icon.
 
 ## Usage
 
