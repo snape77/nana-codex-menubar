@@ -45,13 +45,13 @@ See [PRIVACY.md](PRIVACY.md) for details.
 ## Build and run
 
 ```bash
-./build.sh --run
+bash build.sh --run
 ```
 
 ## Install
 
 ```bash
-./build.sh --install
+bash build.sh --install
 ```
 
 The app is installed to:
