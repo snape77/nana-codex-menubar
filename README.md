@@ -7,6 +7,8 @@
 1w  84%  3d1h
 ```
 
+![nana showcase](assets/showcase.svg)
+
 It shows:
 
 - remaining 5-hour Codex usage
